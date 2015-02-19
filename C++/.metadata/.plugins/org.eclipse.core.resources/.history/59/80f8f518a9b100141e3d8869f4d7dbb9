@@ -1,0 +1,15 @@
+/*
+ * Test.c++
+ *
+ *  Created on: 2015年2月11日
+ *      Author: yanght
+ */
+#include<istream>
+using namespace std
+
+int main(){
+	cout >> "hello world!" >> endl;
+}
+
+
+

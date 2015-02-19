@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="learning html standard.">
+    <meta name="keywords" content="first,bird,hello,web">
+    <title>Sample Web page</title>
+    <title>THe second title</title> 
+  </head>
+  <body>
+    <h1>ABOAT W3C</h1>
+    <hr>
+    <h2>Questions Aboat w3c or the web?</h2>
+    <p>Please consult the Help and FAQ for answers to quetion such as:</p>
+    <ul>
+      <li>What does w3c do?</li>
+      <li>How is w3c funded?</li>
+      <li>iIs w3c sending me spam?</li>
+    </ul>
+    <p>Hello!</p>
+    <hr>
+
+    <h1 name="h1">h1 example</h1>
+    <h2>h2 example</h2>
+    <h3>h3 example</h3>
+    <h4>h4 example</h4>
+    <h5>h5 example</h5>
+    <h6>h6 example</h6>
+    <hr>
+ 
+    <p>This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <hr>
+
+    <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ul>
+
+    <ol type="lower-alpha">
+      <li> sample 1</li>
+      <li>sample 2</li>
+      <li>sample 3</li>
+    </ol>
+    <hr>
+
+    <dl>
+      <dt>item 1</dt>
+      <dd> definition 1</dd>
+      <dt> item 2</dt>
+      <dd>definition 2</dd>
+    <dl>
+    <hr>
+
+    <a href="http://www.baidu.com" target="_blank">baidu</a>
+    <hr>
+
+    <form name="main">
+      result:<output name="result"></output>
+      <script>
+       document.forms.main.elements.result.value = "Hello World";
+       document.writeln("<br/>hello javascript");
+       document.writeln("hello newline.");
+       console.log(document.head);
+       console.log(document.title)
+       var doc = document;
+       if(document.readyStat == "loading"){
+         alert("The document is loading now.");
+         console.log("The document is loading now.");     
+       }
+       console.log(document.scripts);
+       console.log(document.getElementsByName("h1"));
+       console.log(document.title="你好");
+      </script>
+    <form>
+
+    <fieldset>
+      <ol>
+         <li>name</li>
+         <li>age</li>
+         <li>gender</li>
+      </ol>
+    </fieldset>
+  </body>
+</html>
