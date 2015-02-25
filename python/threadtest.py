@@ -29,6 +29,7 @@ if __name__ == "__main__":
   q = queue.Queue(maxsize=10)
   Producer(q).start()
   Producer(q).start()
+  Producer(q).start()
   Consumer(q).start()
     
 
